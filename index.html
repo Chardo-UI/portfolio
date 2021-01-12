@@ -8,7 +8,12 @@
     <!-- CSS-->
     <link rel="stylesheet" href="css/style.css">
 
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
     <meta name="description" content="" />
+
     <meta name="author" content="" />
     <!--Bootstrap 4 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -16,6 +21,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    
+    <link rel="stylesheet" href="fontawesome/css/all.css" type="text/css">
+    
     <title>My Portfolio</title>
 </head>
 <body>
@@ -49,6 +57,19 @@
             <p class="lead" id="about">Front-End | Back-End | Desainer</p>
         </div>
     </div>
+
+
+
+    <!--Sosmed-->
+
+    <div class="sosial-media-fixed">
+      <ul>
+       <li><a href="#" class="fb"><i class="fab fa-facebook"></i></a></li>
+       <li><a href="#" class="ig"><i class="fab fa-instagram"></i></a></li>
+       <li><a href="#" class="wa"><i class="fab fa-whatsapp"></i></a></li>
+       <li><a href="#" class="tl"><i class="fab fa-telegram"></i></a></li>
+      </ul>
+     </div>
 
 
     <!-- About-->
@@ -122,7 +143,9 @@
 
 
     <!-- Portfolio-->
-    <div class="container">
+    <section class="portfolio">
+      <div class="jumbotron jumbotron-fluid">
+      <div class="container">
         <div class="row">
             <div class="col text-center">
                 <h1>Portfolio</h1>
@@ -131,7 +154,7 @@
         <div class="row">
             <div class="col">
                 <figure class="imghvr-slide-left">
-                    <img class="img-fluid" alt="Responsive image" src="img/rumah.png">
+                    <img class="img-fluid rounded" alt="Responsive image" src="img/rumah.png">
                     <figcaption>
                       <h3  >Desain Rumah </h3>
                       <p  >
@@ -143,7 +166,7 @@
 
             <div class="col">
                 <figure class="imghvr-slide-left">
-                    <img class="img-fluid" alt="Responsive image" src="img/login.png">
+                    <img class="img-fluid rounded" alt="Responsive image" src="img/login.png" >
                     <figcaption>
                       <h3>Tampilan Login</h3>
                       <p  >
@@ -155,11 +178,11 @@
 
             <div class="col">
                 <figure class="imghvr-slide-left">
-                    <img class="img-fluid" alt="Responsive image" src="img/logo.png">
+                    <img class="img-fluid rounded" alt="Responsive image" src="img/appcrud.png" >
                     <figcaption>
-                      <h3>Design Logo</h3>
+                      <h3>Aplikasi sederhana</h3>
                       <p  >
-                        <i>"Membuat Design logo dengan aplikasi Adobe Photoshop"</i>
+                        <i>"Membuat aplikasi sederhana menggunakan C#. Ada login register dan halaman home "</i>
                       </p>
                     </figcaption>
                 </figure>
@@ -171,19 +194,7 @@
         <div class="row">
             <div class="col">
                 <figure class="imghvr-slide-left">
-                    <img class="img-fluid" alt="Responsive image" src="img/barvolume.jpg">
-                    <figcaption>
-                      <h3>Menghitung Volume</h3>
-                      <p  >
-                        <i>"Membuat Aplikasi sederhana menghitung volume menggunakan android studio"</i>
-                      </p>
-                    </figcaption>
-                </figure>
-            </div>
-
-            <div class="col">
-                <figure class="imghvr-slide-left">
-                    <img class="img-fluid" alt="Responsive image" src="img/GUI.png">
+                    <img class="img-fluid rounded" alt="Responsive image" src="img/GUI.png" >
                     <figcaption>
                       <h3>Tkinter</h3>
                       <p  >
@@ -195,55 +206,71 @@
 
             <div class="col">
                 <figure class="imghvr-slide-left">
-                    <img class="img-fluid" alt="Responsive image" src="img/appcrud.png">
+                    <img class="img-fluid rounded" alt="Responsive image" src="img/barvolume.jpg" >
                     <figcaption>
-                      <h3>Aplikasi sederhana</h3>
+                      <h3>Menghitung Volume</h3>
                       <p  >
-                        <i>"Membuat aplikasi sederhana menggunakan C#. Ada login register dan halaman home "</i>
+                        <i>"Membuat Aplikasi sederhana menghitung volume menggunakan android studio"</i>
+                      </p>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col">
+                <figure class="imghvr-slide-left">
+                    <img class="img-fluid rounded" alt="Responsive image" src="img/logo.png">
+                    <figcaption>
+                      <h3>Design Logo</h3>
+                      <p  >
+                        <i>"Membuat Design logo dengan aplikasi Adobe Photoshop"</i>
                       </p>
                     </figcaption>
                 </figure>
             </div>
         </div>
     </div>
+    </div>
+    </section>
+    
 
     <!-- Contact Section-->
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="col text-center">
-            <h1>Contact</h1>
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="col text-center">
+              <h1>Contact</h1>
+            </div>
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="col">
+            <div class="col">
+              <form action="kirim.php" method="POST">
+                <input type="text" name="nama" placeholder="Nama" size="30" required><br>
+                <br>
+                <input type="email" name="email" placeholder="Email" size="30" required><br>
+                <br>
+                <textarea name="pesan" cols="40" rows="7" placeholder="Pesan" required></textarea><br>
+                <br>
+                <input class="myButton" type="submit" name="kirim" value="Kirim">
+              </form>
+            </div>
+          </div>
+          
+          <div class="col">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5408.586929212831!2d109.24666765771069!3d-7.434451895314171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655e9cdab6a60f%3A0xc13d4f9f0b88cdb0!2sWisma%20Lensa!5e0!3m2!1sid!2sid!4v1610046792084!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           </div>
         </div>
       </div>
+    </section>
+    
 
-      <div class="row">
-        <div class="col">
-          <div class="col text-center">
-            <i class="fas fa-envelope fa-3x"></i>
-            <h6>charlinainggolan525@gmail.com</h6>
-          </div>
-        </div>
-        <div class="col">
-          <div class="col text-center">
-            <i class="fab fa-facebook-square fa-3x"></i>
-            <h6>Charlie Armando N</h6>
-          </div>
-        </div>
-        <div class="col">
-          <div class="col text-center">
-            <i class="fab fa-whatsapp-square fa-3x"></i>
-            <h6>+62 8522 5401 218</h6>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col text-center">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5408.586929212831!2d109.24666765771069!3d-7.434451895314171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655e9cdab6a60f%3A0xc13d4f9f0b88cdb0!2sWisma%20Lensa!5e0!3m2!1sid!2sid!4v1610046792084!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-      </div>
-    </div>
+    <!--Back to top-->
+    <button class="scrollToTopBtn">
+      <img src="img/top.png" alt="to top" title="to top">
+    </button>
 
     <!-- Footer-->
     <footer>
@@ -253,19 +280,11 @@
     </footer>
       
               
-    
-
-
-
-
-
-
+    <script src="js/script.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   
-    <!-- Contact form JS-->
     <script src="asset/mail/jqBootstrapValidation.js"></script>
-    <script src="asset/mail/contact_me.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
